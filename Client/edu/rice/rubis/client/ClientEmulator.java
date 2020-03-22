@@ -180,8 +180,8 @@ public class ClientEmulator
     {
       // Start by creating a report directory and redirecting output to an index.html file
       System.out.println("RUBiS client emulator - (C) Rice University/INRIA 2001\n");
-      reportDir = "bench/"+TimeManagement.currentDateToString()+"/";
-      reportDir = reportDir.replace(' ', '@');
+      reportDir = "bench/heshan";
+      //reportDir = reportDir.replace(' ', '@');
       try
       {
         System.out.println("Creating report directory "+reportDir);
